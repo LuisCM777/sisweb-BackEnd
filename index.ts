@@ -3,7 +3,7 @@ import apiRouter from "./src/routes/index";
 import morgan from "morgan";
 
 const app: Express = express();
-const port = 3001;
+const port = 3000;
 
 // Middleware
 app.use(morgan("dev"));
